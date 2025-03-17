@@ -24,7 +24,7 @@ body {
     width: 80%;
     max-width: 500px;
     height: auto;
-    border: 5px solid #696658;
+    border: 5px solid #c5c5c5;
     margin: 20px auto;
     display: block;
     }
@@ -37,13 +37,13 @@ body {
     width: 80%;
     max-width: 600px;
     height: auto;
-    border: 5px solid #4b2d2d;
+    border: 5px solid #c2c2c2;
     margin: 20px auto;
     display: block;
     }
     
     :focus {
-    outline: 3px solid #635e4b;
+    outline: 3px solid #adadad;
     }
     
     @media (max-width: 600px) {
