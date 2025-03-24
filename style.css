@@ -42,9 +42,45 @@ body {
     display: block;
     }
     
-    :focus {
-    outline: 3px solid #ffffff;
-    }
+    #acessibilidade {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        display: flex;
+        gap: 10px;
+        }
+        
+        .btn {
+        font-size: 1.2rem;
+        padding: 10px 15px;
+        margin: 5px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        }
+        
+        #aumentar-fonte {
+        background-color: #66CC66;
+        color: white;
+        }
+        
+        #aumentar-fonte:hover {
+        background-color: #4CAF50;
+        }
+        
+        #diminuir-fonte {
+        background-color: #FF8C00;
+        color: white;
+        }
+        
+        #diminuir-fonte:hover {
+        background-color: #E07B00;
+        }
+        
+        :focus {
+        outline: 3px solid #003366;
+        }
     
     @media (max-width: 600px) {
     body {
